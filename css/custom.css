@@ -28,6 +28,66 @@ body {
 }
 
 .event{
+	margin-top: 25px;
+}
+
+.soc-cus{
+	display: inline;
+}
+
+.foot-line{
+	display: inline;
+	vertical-align: middle;
+	margin-top: 15px;
+}
+
+.cus-sub{
+	padding-bottom: 20px;
+}
+
+.cus-mod-foot{
+	position: absolute;
+	bottom: 0px;
+	width:100%;
+}
+
+.cus-car-foot{
+	border-top: none;
+
+}
+
+.modal-nav{
+	display: inline;
+
+}
+
+.modal-close{
+	display: inline;
+	position: absolute;
+	margin-right: 15px;
+	margin-top: 15px;
+
+	top:0px;
+	right:0px;
+}
+
+.ind{
 	margin-top: 50px;
 }
 
+.work-cont{
+	height: 450px;
+	width: 80%;
+	margin-left: 10%;
+	
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.car-tab{
+	
+	margin-top: 5px;
+	margin-left: 5px;
+}
