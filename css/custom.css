@@ -20,6 +20,12 @@ File Description: Place here your custom CSS styles
 	width: 800px;
 }
 
+.cont2{
+	vertical-align: middle;
+	height: 320px;
+	width: 800px;
+}
+
 
 body {
   overflow: auto;
@@ -49,6 +55,10 @@ body {
 	position: absolute;
 	bottom: 0px;
 	width:100%;
+}
+
+.cus-mod-foot2{
+	height: 50px;
 }
 
 .cus-car-foot{
@@ -117,35 +127,10 @@ body {
 }
 
 .carousel.carousel-fade .active.item {
-	-webkit-transition: opacity 0.5s ease;
-	-moz-transition: opacity 0.5s ease;
-	-ms-transition: opacity 0.5s ease;
-	-o-transition: opacity 0.5s ease;
-	transition: opacity 0.5s ease;
+	
 	opacity:1;
 }
 
-.carousel .item {
-    left: 0 !important;
-      -webkit-transition: opacity 1s; /*adjust timing here */
-         -moz-transition: opacity 1s;
-           -o-transition: opacity 1s;
-              transition: opacity 1s;
-}
-.carousel-control {
-    background-image: none !important; /* remove background gradients on controls */
-}
-/* Fade controls with items */
-.next.left,
-.prev.right {
-    opacity: 1;
-    z-index: 1;
-}
-.active.left,
-.active.right {
-    opacity: 0;
-    z-index: 2;
-}
 
 div{
 	display: block;
@@ -175,4 +160,73 @@ div{
 
 .modal-title{
 	text-align: center;
+}
+
+.contact-pad{
+	margin-top: 30px;
+}
+.media-body{
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+}
+
+.media{
+	height: 200px;
+}
+
+.media-heading{
+	text-align: center;
+	color: #55ACEE;
+}
+
+.media-position{
+	text-align: center;
+	font-weight: bold;
+}
+
+.contact-class{
+	padding: 15px 5px;
+	margin-bottom: 25px;
+	border-bottom: 3px solid #55ACEE;
+	color: #333;
+	min-width: 10px !important;
+	display: inline; 
+}
+
+.top-space{
+	display: block;
+	margin-top: 20px;
+}
+
+.mail, .phno{
+	display: block;
+	text-align: center;
+	color: #777;
+	text-decoration: none;
+
+}
+
+.mail:hover, .phno:hover{
+	
+	color: #55ACEE;
+	text-decoration: none;
+
+}
+
+.mail span, .phno span{
+	margin-right: 5px;
+}
+
+.subfooter{
+	background-color: #C8C8C8;
+}
+
+.err-msg{
+	color: red;
+	font-weight: bold;
+}
+
+.gap{
+	display: block;
+	margin-bottom: 35px;
 }
