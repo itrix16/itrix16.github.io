@@ -62,7 +62,7 @@ body {
 .foot-line{
 	display: inline;
 	vertical-align: middle;
-	margin-top: 15px;
+	margin-top: 25px;
 }
 
 .cus-sub{
@@ -238,6 +238,8 @@ div{
 
 .subfooter{
 	background-color: #C8C8C8;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .err-msg{
