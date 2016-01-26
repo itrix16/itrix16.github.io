@@ -26,6 +26,12 @@ File Description: Place here your custom CSS styles
 	width: 800px;
 }
 
+.cont3{
+	vertical-align: middle;
+	height: 320px;
+	
+}
+
 
 body {
   overflow: auto;
