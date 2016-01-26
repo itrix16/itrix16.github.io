@@ -32,6 +32,18 @@ File Description: Place here your custom CSS styles
 	
 }
 
+.cont3 button{
+	background-color: #55ACEE;
+	color: white;
+	border: 1px solid #55ACEE;
+}
+
+.cont3 button:hover{
+	background-color: white;
+	color: #55ACEE;
+	border: 1px solid #55ACEE;
+}
+
 
 body {
   overflow: auto;
