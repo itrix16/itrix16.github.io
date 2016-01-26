@@ -62,8 +62,9 @@ body {
 }
 
 .soc-cus li{
-	margin-top: 0px;
+	margin-top: 10px;
 	margin-bottom: 0px;
+	font-size: 20px;
 }
 .foot-line{
 	display: inline;
