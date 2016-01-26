@@ -96,10 +96,11 @@
 										<!-- Collect the nav links, forms, and other content for toggling -->
 										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 											<ul class="nav navbar-nav navbar-right">
-												<li class="active"><a href="index.html#banner">Home</a></li>
-												<li><a href="events.html">Events</a></li>
+												<li><a href="index.html#banner">Home</a></li>
+												<li class="active"><a href="events.html">Events</a></li>
 												<li><a href="workshop.html">Workshops</a></li>
 												<li><a href="contact.html">Contact</a></li>
+												<li><a data-toggle="modal" data-target="#signup">Sign In/Sign Up</a></li>
 											</ul>
 										</div>
 									</div>
@@ -123,8 +124,10 @@
 		<!-- ================ -->
 		<div class="section event">
 			<div class="container">
-				<h1 class="text-center title" id="portfolio">Events</h1>
-				<div class="separator"></div>
+				<center>
+					<h1 class="text-center title contact-class" id="portfolio">Events</h1>
+				</center>
+				<div class="separator gap"></div>
 				<p class="lead text-center">Lorem ipsum dolor sit amet laudantium molestias similique.<br> Quisquam incidunt ut laboriosam.</p>
 				<br>			
 				<div class="row object-non-visible" data-animation-effect="fadeIn">
@@ -256,6 +259,44 @@
 												  <li><a data-toggle="pill" href="#menu2">Contact</a></li>
 												</ul>
 												<button type="button" class="btn btn-sm btn-default modal-close" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+								<!-- Modal -->
+								<div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="signup" aria-hidden="true">
+									<div class="modal-dialog modal-md">
+										<div class="modal-content cont3">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-1-label">Sign In</h4>
+											</div>
+											<div class="modal-body">
+												<!-- Incorrect Email or password-->
+												<p class="err-msg"></p>
+
+												<form role="form" id="footer-form">
+													<div class="form-group has-feedback">
+														<label class="sr-only" for="email2">Email address</label>
+														<input type="email" class="form-control" id="email2" placeholder="Enter email" name="email2" required>
+														<i class="fa fa-envelope form-control-feedback"></i>
+													</div>
+													<div class="form-group has-feedback">
+														<label class="sr-only" for="pass">Password</label>
+														<input type="Password" class="form-control" id="pass" placeholder="Enter Password" name="email2" required>
+														<i class="fa fa-lock form-control-feedback"></i>
+													</div>
+													<center>
+														<input type="submit" value="Sign In" class="btn btn-default" method="POST">
+														<button type="button" onclick="window.open('signup.html', '_self')" class="btn btn-default">Sign Up</button>
+													</center>
+												</form>	
+
+												
+											</div>
+											<div class="modal-footer cus-mod-foot2">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
 											</div>
 										</div>
 									</div>
