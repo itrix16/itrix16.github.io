@@ -57,12 +57,18 @@ body {
 
 .soc-cus{
 	display: inline;
+	height: 15px;
+	margin: 0px;
 }
 
+.soc-cus li{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
 .foot-line{
 	display: inline;
 	vertical-align: middle;
-	margin-top: 25px;
+	margin-top: 15px;
 }
 
 .cus-sub{
